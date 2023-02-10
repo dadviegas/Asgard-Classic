@@ -1,0 +1,10 @@
+{
+  "name": "Asgard-Classic",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.ts",
+  "repository": "git@github.com:dadviegas/Asgard-Classic.git",
+  "author": "David Viegas <dadviegas@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
