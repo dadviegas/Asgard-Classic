@@ -5,11 +5,10 @@ function init() {
     form?.addEventListener("submit", submitHandler);
   }
 
-  function submitHandler(e) {
-    e.preventDefault();
+  function submitHandler() {
     const num1 = document.querySelector("input[name='firstnumber']");
     const num2 = document.querySelector("input[name='secondnumber']");
-    const result = subtract(Number(num1.value), Number(num2.value));
+    const result = subtract(Number(1), Number(2));
     const resultElement = document.querySelector("p");
     if (resultElement) {
       resultElement.textContent = result.toString();
