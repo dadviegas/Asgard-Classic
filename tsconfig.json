@@ -3,7 +3,8 @@
       "noImplicitAny": true,
       "target": "ES5",
       "module": "ES2015",
-      "sourceMap": true
+      "sourceMap": true,
+      "moduleResolution": "node",
   }
 }
 

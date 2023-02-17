@@ -1,4 +1,4 @@
-import { subtract } from "./app";
+import { subtract } from "@asgard/utils";
 
 function init() {
     const form = document.querySelector("form");

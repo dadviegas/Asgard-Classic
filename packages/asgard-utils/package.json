@@ -1,0 +1,20 @@
+{
+  "name": "@asgard/utils",
+  "version": "1.0.0",
+  "description": "test",
+  "repository": "git@github.com:dadviegas/Asgard-Classic.git",
+  "author": "David Viegas <dadviegas@gmail.com>",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "echo \"Error: no serve specified\" && exit 1",
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "clean:dist": "rm -rf dist",
+    "clean:nodeModules": "rm -rf node_modules",
+    "clean": "yarn clean:nodeModules && yarn clean:dist"
+  },
+  "devDependencies": {
+  }
+}
