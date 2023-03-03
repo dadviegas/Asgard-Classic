@@ -2,7 +2,7 @@
   "compilerOptions": {
       "noImplicitAny": true,
       "target": "ES5",
-      "module": "ES2015",
+      "module": "ESNext",
       "sourceMap": true,
       "moduleResolution": "node",
   }

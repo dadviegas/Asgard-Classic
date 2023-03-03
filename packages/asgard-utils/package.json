@@ -9,7 +9,6 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "echo \"Error: no serve specified\" && exit 1",
     "clean:dist": "rm -rf dist",
     "clean:nodeModules": "rm -rf node_modules",
     "clean": "yarn clean:nodeModules && yarn clean:dist"
