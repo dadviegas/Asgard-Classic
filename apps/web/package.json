@@ -15,10 +15,10 @@
     "clean:nodeModules": "rm -rf node_modules",
     "clean": "yarn clean:nodeModules && yarn clean:dist"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "@asgard/utils": "1.0.0",
-    "@asgard/webpack": "1.0.0"
+    "@asgard/webpack": "1.0.0",
+    "lodash": "^4.17.21"
   }
 }
